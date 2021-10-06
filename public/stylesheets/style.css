@@ -4,6 +4,7 @@
 
 body,
 html {
+  background-color: #d9ead3;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -14,7 +15,7 @@ html {
 a {
   text-decoration: none;
   color: #d9ead3;
-  font-weight: bold;
+  /* font-weight: bold; */
   transition: color 0.1s;
 }
 
@@ -81,11 +82,17 @@ header {
   align-items: center;
   background-color: #22100f;
   border-bottom: 1px solid #ccc;
-  display: flex;
+  border-radius: 0 0 15px 15px;
+  /* display: flex; */
   height: 100px;
   /* justify-content: space-between; */
+  /* margin: 5% 0; */
   padding: 0 1%;
   width: 100%;
+}
+
+.header-contents-m {
+  margin: 10px 0;
 }
 
 /* styles The Tech Blog Header */
@@ -94,12 +101,15 @@ header h1 {
   background-color: #d9ead3;
   /* color: #22100f; */
   font-size: 2em;
-  top: 25;
-  position: relative;
+  /* top: 25;
+  position: relative; */
   border-radius: 5px;
+  /* margin: 5% 0; */
   text-align: center;
   width: 250px;
+  filter: drop-shadow(30px 10px 4px #4444dd);
 }
+
 .main-header {
   color: #22100f;
   margin: 3% 5%;
@@ -129,7 +139,7 @@ main {
 
 nav a {
   /* display: flex; */
-  margin: 0 1rem;
+  margin: 0 1.5rem;
 }
 
 .btn-no-style {
@@ -138,9 +148,9 @@ nav a {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #d9ead3;
   font-size: 100%;
-  font-weight: bold;
+  font-weight: normal;
   transition: color 0.1s;
   margin-left: 16px;
 }
