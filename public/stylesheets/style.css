@@ -13,7 +13,7 @@ html {
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #d9ead3;
   font-weight: bold;
   transition: color 0.1s;
 }
@@ -78,17 +78,35 @@ form label {
 }
 
 header {
-  background-color: #000;
+  align-items: center;
+  background-color: #22100f;
   border-bottom: 1px solid #ccc;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 100px;
+  /* justify-content: space-between; */
   padding: 0 1%;
+  width: 100%;
 }
 
+/* styles The Tech Blog Header */
+/* START */
 header h1 {
-  font-size: 1em;
+  background-color: #d9ead3;
+  /* color: #22100f; */
+  font-size: 2em;
+  top: 25;
+  position: relative;
+  border-radius: 5px;
+  text-align: center;
+  width: 250px;
 }
+.main-header {
+  color: #22100f;
+  margin: 3% 5%;
+  /* width: 30px; */
+}
+/* styles The Tech Blog Header */
+/* END */
 
 main {
   flex: 1;
@@ -101,6 +119,18 @@ main {
   width: 1100px;
   height: 50px;
 } */
+
+/* nav {
+  display: flex; 
+  float: left; 
+  position: relative;
+  left: 0;
+} */
+
+nav a {
+  /* display: flex; */
+  margin: 0 1rem;
+}
 
 .btn-no-style {
   background: none;
