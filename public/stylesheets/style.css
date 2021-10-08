@@ -159,7 +159,7 @@ nav a {
 } */
 
 .post .title {
-  background-color: black;
+  background-color: #22100f;
   color: #d9ead3;
   justify-content: space-between;
 }
@@ -238,24 +238,48 @@ h4 {
 .upvote-btn:hover {
   background-color: #1f9c13;
 }
+/* 
+.darkness {
+  height: 15px;
+  background-color: black;
+} */
 
 .comment-form {
   margin-bottom: 5%;
 }
 
 .comment {
+  display: flex;
+  justify-content: space-between;
   padding: 1%;
   margin-bottom: 1%;
+  width: 100%;
+  border: solid;
+  border-top: black 40px solid;
 }
 
-.comment:nth-child(odd) {
+/* .comment:nth-child(odd) {
   background-color: #fff5eb;
+} */
+
+.comment .text {
+  display: inline-block;
+  /* position: absolute;
+  left: 250px; */
 }
 
 .comment .meta {
+  /* background-color: #22100f; */
+  /* color: #d9ead3; */
+  color: black;
+  /* display: inline-block; */
   font-size: 90%;
   margin-bottom: 0.5%;
-  opacity: 0.6;
+  /* opacity: 0.6; */
+  position: absolute;
+  right: 250px;
+  /* height: 100%;
+  width: 100%; */
 }
 
 .new-post-form input {
