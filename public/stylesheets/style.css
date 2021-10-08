@@ -107,7 +107,7 @@ header h1 {
   /* margin: 5% 0; */
   text-align: center;
   width: 250px;
-  filter: drop-shadow(30px 10px 4px #4444dd);
+  filter: drop-shadow(5px 7px 0px #d4dbd1);
 }
 
 .main-header {
@@ -141,6 +141,20 @@ nav a {
   /* display: flex; */
   margin: 0 1.5rem;
 }
+
+h3 {
+  background-color: black;
+  color: #d9ead3;
+  height: 2em;
+  padding-left: 15px;
+  /* text-align: center; */
+  /* margin: auto 0 auto 0; */
+  vertical-align: middle;
+}
+
+/* .meta h3 {
+  vertical-align: middle;
+} */
 
 .btn-no-style {
   background: none;
@@ -176,7 +190,9 @@ nav a {
 .post .title span {
   font-style: italic;
   font-size: 90%;
-  color: #7d7d7d;
+  /* color: #7d7d7d; */
+  color: black;
+  border: black 3px solid;
 }
 
 .edit-link {
