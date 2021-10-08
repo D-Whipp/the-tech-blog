@@ -24,7 +24,8 @@ a:hover {
 }
 
 button {
-  background-color: #225ca3;
+  /* background-color: #225ca3; */
+  background-color: #5c5c5c;
   border: 0;
   padding: 1%;
   color: white;
@@ -32,6 +33,7 @@ button {
   transition: background-color 0.1s;
   cursor: pointer;
   border-radius: 5px;
+  width: 40%;
 }
 
 button:hover {
@@ -202,10 +204,14 @@ h4 {
 .btn-no-style:hover {
   background: none;
   color: #3486eb;
+  /* color: black; */
 }
 
 .delete-post-btn {
-  background-color: #d41414;
+  background-color: #5c5c5c;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1%;
 }
 
 .delete-post-btn:hover {
@@ -225,7 +231,27 @@ h4 {
   border: black 3px solid;
 } */
 
+.edit-article {
+  border: solid;
+  /* height: 2rem; */
+  margin-bottom: 5%;
+  /* position: absolute; */
+  /* top: 0; */
+  text-align: center;
+}
+
+.edit-h2 {
+  background-color: black;
+  color: white;
+  height: 2rem;
+  margin-top: -0.1%;
+  /* position: relative; */
+  /* top: 0; */
+  vertical-align: top;
+}
+
 .edit-link {
+  color: black;
   display: block;
   margin: -1.5% 0 2% 0;
 }
@@ -246,6 +272,15 @@ h4 {
 
 .comment-form {
   margin-bottom: 5%;
+  border: solid;
+  width: 100%;
+  text-align: center;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.comment-text-area {
+  margin: 2% auto;
 }
 
 .comment {
@@ -282,8 +317,15 @@ h4 {
   width: 100%; */
 }
 
+.new-post-form {
+  width: 100%;
+  text-align: center;
+}
+
 .new-post-form input {
   width: 300px;
+  /* width: 100%; */
+  text-align: center;
 }
 
 .edit-post-form {
