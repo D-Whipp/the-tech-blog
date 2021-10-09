@@ -5,8 +5,17 @@
   </h2>
   <form class="edit-post-form">
     <div>
-      <input name="post-title" type="text" value="{{post.title}}" />
-      <span>({{format_url post.post_url}})</span>
+      {{!-- New START --}}
+      <label for="post-title">Title</label>
+      {{!-- New END --}}
+      <input class="post-title-form" name="post-title" type="text" value="{{post.title}}" />
+      {{!-- <span>({{format_url post.post_url}})</span> --}}
+    </div>
+    <div>
+      <label for="post-url">Content</label>
+      <input id="post-url" class="post-content-form" name="post-url" type="text" value="{{post.post_url}}" />
+      {{!-- <textarea id="post-url" class="post-content-form" name="post-url" type="text" value="{{post.post_url}}"></textarea> --}}
+
     </div>
     <div>
       {{post.vote_count}} {{format_plural "point" post.vote_count}} by you on {{format_date post.created_at}}
@@ -18,7 +27,7 @@
   </form>
 </article>
 
-<form class="comment-form">
+{{!-- <form class="comment-form">
   <div>
     <textarea name="comment-body"></textarea>
   </div>
@@ -26,7 +35,7 @@
   <div>
     <button type="submit">add comment</button>
   </div>
-</form>
+</form> --}}
 
 {{> comments post.comments}}
 

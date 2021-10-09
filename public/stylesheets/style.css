@@ -160,6 +160,10 @@ nav a {
   vertical-align: middle;
 } */
 
+ol {
+  list-style: none;
+}
+
 .post .title {
   background-color: #22100f;
   color: #d9ead3;
@@ -323,13 +327,23 @@ h4 {
 }
 
 .new-post-form input {
-  width: 300px;
-  /* width: 100%; */
+  /* width: 300px; */
+  width: 50%;
+  height: 4rem;
   text-align: center;
 }
 
 .edit-post-form {
   margin-bottom: 5%;
+}
+
+.post-title-form {
+  width: 45%;
+}
+
+.post-content-form {
+  width: 50%;
+  height: 3rem;
 }
 
 footer {
