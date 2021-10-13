@@ -1,16 +1,11 @@
 <section>
-  {{!-- <h2>Create New Post</h2> --}}
 
   <form class="new-post-form">
     <div>
       <label for="post-title">Title</label>
       <input type="text" id="post-title" name="post-title" />
     </div>
-    {{!-- <div>
-      <label for="post-url">Comment</label>
-      <input id="post-url" name="post-url" />
-    </div> --}}
-    {{!-- Custom text box --}}
+ 
     <div>
       <label for="post-url">Content</label>
       <input id="post-url" name="post-url" />
@@ -19,9 +14,7 @@
   </form>
 </section>
 
-{{!-- {{#if posts.length}} --}}
 <section>
-  {{!-- <h2>Your Posts</h2> --}}
   <ol>
     {{#each posts as |post|}}
     <li>
@@ -31,6 +24,5 @@
     {{/each}}
   </ol>
 </section>
-{{!-- {{/if}} --}}
 
 <script src="/javascript/add-post.js"></script>

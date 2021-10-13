@@ -5,9 +5,7 @@
   </h2>
   <form class="edit-post-form">
     <div>
-      {{!-- New START --}}
       <label for="post-title">Title</label>
-      {{!-- New END --}}
       <input class="post-title-form" name="post-title" type="text" value="{{post.title}}" />
       {{!-- <span>({{format_url post.post_url}})</span> --}}
     </div>
@@ -27,15 +25,7 @@
   </form>
 </article>
 
-{{!-- <form class="comment-form">
-  <div>
-    <textarea name="comment-body"></textarea>
-  </div>
 
-  <div>
-    <button type="submit">add comment</button>
-  </div>
-</form> --}}
 
 {{> comments post.comments}}
 
