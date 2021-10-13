@@ -60,3 +60,5 @@ You can view more of my work at [my github](https://github.com/D-Whipp)
 ## Badges
 
 ![JavaScript](https://img.shields.io/badge/Language-JavaScript-brightgreen)
+![MySQL](https://img.shields.io/badge/Database-MySQL-yellow)
+![Handlebars](https://img.shields.io/badge/Template-Handlebars-orange)
